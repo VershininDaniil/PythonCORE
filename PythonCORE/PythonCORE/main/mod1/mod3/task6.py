@@ -1,0 +1,1 @@
+print(len((nums := input().split())) != len(set(nums)))

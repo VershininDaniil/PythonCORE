@@ -1,0 +1,1 @@
+print((lambda n: 'Неверно' if not n.isdigit() or int(n)<=0 else f"{bin(int(n))[2:]}, {oct(int(n))[2:]}, {hex(int(n))[2:].upper()}")(input().strip()))

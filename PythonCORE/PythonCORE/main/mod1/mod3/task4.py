@@ -1,0 +1,1 @@
+print('да' if (s := input()).count('0') == s.count('1') else 'нет')
